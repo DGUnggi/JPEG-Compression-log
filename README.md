@@ -6,3 +6,4 @@
 - 비에지 블록
 -> 이걸 가지고 Block-level로 Quantization table 적용
   
+### DNN 기반으로 이미지 파악하고 Compression 조절하는 것도 가능할 듯
