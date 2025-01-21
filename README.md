@@ -25,3 +25,9 @@ JPEG 이미지를 인코딩할 때, 블록별로 다른 양자화 테이블을 �
 
 - Decoding:
 디코더가 허프만 테이블에서 EOB 코드로 전달된 정보를 읽어들여, 각 블록에 사용된 양자화 테이블을 적용하여 이미지를 복원합니다.
+## Edge-adaptive JPEG image compression
+### Edge/Texture부분과 그렇지 않은 부분을 정밀하게 감지하여 쿼드트리 구조로 세분화하고 이를 기반으로 Quantization table을 적용한다
+
+// Common ground between all of papers
+- They adaptively select the specific quantization tables in block-level
+- However, the standard and the way to classifiy the blocks are different
