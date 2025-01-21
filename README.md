@@ -31,3 +31,7 @@ JPEG 이미지를 인코딩할 때, 블록별로 다른 양자화 테이블을 �
 ## Common ground between all of papers
 - They adaptively select the specific quantization tables in block-level
 - However, the standard and the way to classifiy the blocks are different
+-
+
+## Adaptive Image Compression Using Saliency and KAZE Features
+- JPEG 압축에서의 고정된 품질 인자의 한계를 극복하기 위해 블록별 품질 조정을 도입하며, 특히 KAZE 키포인트와 시각적 주목도를 활용하여 이미지의 중요한 영역을 보존한다
