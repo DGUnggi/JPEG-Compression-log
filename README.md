@@ -10,5 +10,7 @@
 ## DEEP SELECTOR-JPEG, ADAPTIVE JPEG IMAGE COMPRESSION FOR COMPUTER
 ### DNN 기반으로 이미지 파악하고 Compression 조절하는 것도 가능할 듯
 
+
+
 ## An Adaptive Quantization Technique for JPEG Based on Non-uniform Rectangular Partition
 ### Non-uniform rectangular partition을 사용해서 이미지의 texture complexity를 계산해서 complexity에 따라서 Quantization table을 적용한다.
